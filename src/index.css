@@ -1,0 +1,79 @@
+head{
+  margin : 0;
+  padding : 0;
+}
+
+body{
+  background-color: #282D35;
+  margin : 0;
+  padding : 0
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 91px;
+  background-color: #21222A;
+  /* box-shadow: 10px 10px 8px grey; */
+}
+
+.navbar > h3{
+  color: #61DAFB;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.navbar > h4{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navbar > img {
+  width: 30px;
+  margin-right: 7px;
+}
+
+.main-item {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  padding: 57px 27px;
+  opacity: 0.8;
+  background-color: #282D35;
+  background-image: url("./images/logo192.png");
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  background-attachment: fixed;
+}
+
+.heading1 {
+  margin: 0;
+  font-size: 39.06px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.list-item {
+  margin-top: 46px;
+}
+
+.list-item > li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px;;
+}
+
+.list-item > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
